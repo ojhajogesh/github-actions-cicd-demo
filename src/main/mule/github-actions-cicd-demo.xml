@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="github-actions-cicd-demoFlow" doc:id="a70eaa52-cdb2-480a-8618-89ded0a5321b" >
 		<http:listener doc:name="Listener" doc:id="228d1107-b154-44f1-b499-518ae898b402" config-ref="HTTP_Listener_config" path="/hello"/>
 		<logger level="INFO" doc:name="Logger" doc:id="674ddf8d-897e-41e9-9964-0d6dc7f4657a" message="============================= Flow Triggered ========================================"/>
-		<set-payload value="Hello Jogesh!" doc:name="Set Payload" doc:id="7b9c3370-e924-4acb-8e0d-52e14c173f13" />
+		<set-payload value="Hello World!" doc:name="Set Payload" doc:id="7b9c3370-e924-4acb-8e0d-52e14c173f13" />
 	</flow>
 </mule>
